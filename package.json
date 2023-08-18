@@ -1,0 +1,27 @@
+{
+  "name": "leto-sites",
+  "version": "0.1.0",
+  "description": "A collection of websites for new letovians such as the online diary, Canvas, some Telegram chats, etc.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetovoLeTo/leto-sites.git"
+  },
+  "keywords": [
+    "leto",
+    "sites",
+    "resources"
+  ],
+  "author": "Milk_Cool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LetovoLeTo/leto-sites/issues"
+  },
+  "homepage": "https://github.com/LetovoLeTo/leto-sites#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
