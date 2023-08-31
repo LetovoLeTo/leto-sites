@@ -8,4 +8,4 @@ router.get("/resources", (req, res) => {
     res.sendFile(join(__dirname, "html/index.html"));
 });
 
-module.exports = app;
+module.exports = router;
