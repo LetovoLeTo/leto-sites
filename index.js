@@ -1,10 +1,10 @@
 const express = require("express");
 const { join } = require("path");
 
-const app = express();
+const router = express.Router();
 
-app.use("/resources", express.static(join(__dirname, "html")));
-app.get("/resources", (req, res) => {
+router.use("/resources", express.static(join(__dirname, "html")));
+router.get("/resources", (req, res) => {
     res.sendFile(join(__dirname, "html/index.html"));
 });
 
